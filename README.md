@@ -1,7 +1,6 @@
 # CreateMyOwnWebCrawler
 패스트캠퍼스 사전과제 - 코로나바이러스감염증-19 국내 발생현황 홈페이지에서 **'확진자 연령별 현황'** 웹 크롤링
-- 홈페이지 주소
-https://ncov.kdca.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11&ncvContSeq=&contSeq=&board_id=&gubun=
+- 홈페이지 주소 : https://ncov.kdca.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11&ncvContSeq=&contSeq=&board_id=&gubun=
 
 ## 사용 기술 스택
 자바, (웹크롤링)
@@ -13,8 +12,9 @@ https://ncov.kdca.go.kr/bdBoardList_Real.do?brdId=1&brdGubun=11&ncvContSeq=&cont
 (입력과 출력 내용에 대한 설명)
 
 ## (그 외 상세한 내용들)
-// 1. 과제 제목 과 과제에 대한 설명
-// 2. 구현할 기능 목록과 각 기능의 내용
-// 3. 입력과 출력 내용에 대한 설명
-// 4. 개발도구
-// 5. 그 외 상세한 내용들
+---------------------------------
+- [x] 과제 제목 과 과제에 대한 설명
+- [ ] 구현할 기능 목록과 각 기능의 내용
+- [ ] 입력과 출력 내용에 대한 설명
+- [ ] 개발도구
+- [ ] 그 외 상세한 내용들
