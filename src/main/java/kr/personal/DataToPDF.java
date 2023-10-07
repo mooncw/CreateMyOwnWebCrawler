@@ -16,6 +16,7 @@ public class DataToPDF {
             PdfWriter.getInstance(document, new FileOutputStream(new File(fileName)));
             document.open();
 
+            // 폰트 설정
             BaseFont baseFont = BaseFont.createFont("malgun.ttf", BaseFont.IDENTITY_H, true);
             Font titleFont = new Font(baseFont, 20, Font.BOLD);
             Font headerFont = new Font(baseFont, 12);

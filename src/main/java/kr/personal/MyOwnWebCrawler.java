@@ -1,7 +1,5 @@
 package kr.personal;
 
-import java.io.IOException;
-
 public class MyOwnWebCrawler {
     public static void main(String[] args) {
         try {

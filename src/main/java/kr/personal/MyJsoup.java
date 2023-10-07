@@ -14,7 +14,7 @@ public class MyJsoup {
     private Document document;
 
     public MyJsoup() throws IOException {
-        this.document = Jsoup.connect(MAIN_URL).get();
+        this(MAIN_URL);
     }
 
     public MyJsoup(String url) throws IOException {
@@ -39,6 +39,6 @@ public class MyJsoup {
             covidStatusList.add(new CovidStatus(category, confirmed, dead, rate));
         }
 
-        return  covidStatusList;
+        return covidStatusList;
     }
 }
