@@ -35,7 +35,8 @@ public class DataToExcel {
 
         try (FileOutputStream fileOut = new FileOutputStream(fileName)) {
             workbook.write(fileOut);
+        } finally {
+            workbook.close();
         }
-        workbook.close();
     }
 }
