@@ -34,7 +34,9 @@ java, jsoup, itextpdf, poi
     <details>
       <summary>코드</summary>
       <div markdown="1">
-        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/f371ac98-ef3b-48e2-9ab3-ca68ca99a2ca">
+        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/83306796-164b-4880-b985-737f2105cd22">
+        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/818b1b75-e9dd-44c4-892e-a83322409282">
+        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/199f55e5-966d-491a-afa7-e57527a27dfc">
       </div>
     </details>
 - **DataToPDF**
@@ -58,12 +60,26 @@ java, jsoup, itextpdf, poi
     </details>
 
 ## 결과
+### 실행 영상(성공 여부 프린트와 파일들이 생기는 것 확인)
+![MyOwnWebCrawler java실행](https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/dcd222f5-b760-4191-b574-0489dbeaff2f)
 
+<br>
+
+### 생성한 파일
+- **MyCovidExcel**
+
+  ![image](https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/9548b552-b9f2-44bf-9798-9618e1b2ce12)
+
+<br>
+
+- **MyCovidPDF**
+
+  ![image](https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/093935bc-e863-411f-b82f-0b753fb0c0b2)  
 
 ## (그 외 상세한 내용들)
 ---------------------------------
 - [x] 과제 제목 과 과제에 대한 설명
-- [ ] 구현할 기능 목록과 각 기능의 내용
-- [ ] 입력과 출력 내용에 대한 설명
+- [x] 구현할 기능 목록과 각 기능의 내용
+- [x] 입력과 출력 내용에 대한 설명
 - [x] 개발도구
 - [ ] 그 외 상세한 내용들
