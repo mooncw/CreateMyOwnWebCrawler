@@ -5,8 +5,8 @@
 ## 사용 기술 스택
 java, jsoup, itextpdf, poi
 
-## 진행 사항
-### 구현 클래스
+## 구현 클래스
+### Model
 - **CovidStatus**
   - 확진자 연령별 현황 관련 데이터를 넣기 위한 VO 클래스
   - 데이터 : 구분, 확진자, 사망자, 치명률
@@ -17,17 +17,7 @@ java, jsoup, itextpdf, poi
       </div>
     </details>
 
-- **MyJsoup**
-  - jsoup으로 코로나바이러스감염증-19 국내 발생현황 홈페이지 크롤링하여 필요한 데이터를 CovidStatus 객체에 넣는 클래스
-  - 정적인 홈페이지를 하나를 HTML 파싱 및 데이터 추출 작업이기에 jsoup 사용
-  - url을 입력으로 받아 jsoup으로 추출한 데이터를 넣은 CovidStatus 객체를 리턴
-    <details>
-      <summary>코드</summary>
-      <div markdown="1">
-        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/5794fbf6-8126-43c2-895c-bb55f3db5d84">
-      </div>
-    </details>
-
+### View
 - **DataToExcel**
   - 데이터가 들어있는 CovidStatus 객체를 엑셀 파일로 저장하는 클래스
   - MyJsoup로 얻은 CovidStatus 객체와 파일이름을 입력받아 엑셀 형식에 맞게 Workbook을 조작 후 저장
@@ -47,6 +37,18 @@ java, jsoup, itextpdf, poi
       <div markdown="1">
         <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/124bd1af-3c4c-42c6-adfa-59039f07f8c0">
         <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/6ea7c444-9c30-4cce-a649-6b65f272d81c">
+      </div>
+    </details>
+
+### Controller
+- **MyJsoup**
+  - jsoup으로 코로나바이러스감염증-19 국내 발생현황 홈페이지 크롤링하여 필요한 데이터를 CovidStatus 객체에 넣는 클래스
+  - 정적인 홈페이지를 하나를 HTML 파싱 및 데이터 추출 작업이기에 jsoup 사용
+  - url을 입력으로 받아 jsoup으로 추출한 데이터를 넣은 CovidStatus 객체를 리턴
+    <details>
+      <summary>코드</summary>
+      <div markdown="1">
+        <img src="https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/5794fbf6-8126-43c2-895c-bb55f3db5d84">
       </div>
     </details>
 - **MyOwnWebCrawler**
@@ -75,11 +77,3 @@ java, jsoup, itextpdf, poi
 - **MyCovidPDF**
 
   ![image](https://github.com/mooncw/CreateMyOwnWebCrawler/assets/97713997/093935bc-e863-411f-b82f-0b753fb0c0b2)  
-
-## (그 외 상세한 내용들)
----------------------------------
-- [x] 과제 제목 과 과제에 대한 설명
-- [x] 구현할 기능 목록과 각 기능의 내용
-- [x] 입력과 출력 내용에 대한 설명
-- [x] 개발도구
-- [ ] 그 외 상세한 내용들
