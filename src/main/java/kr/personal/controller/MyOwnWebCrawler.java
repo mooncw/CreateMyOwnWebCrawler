@@ -1,4 +1,7 @@
-package kr.personal;
+package kr.personal.controller;
+
+import kr.personal.view.DataToExcel;
+import kr.personal.view.DataToPDF;
 
 public class MyOwnWebCrawler {
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package kr.personal;
+package kr.personal.controller;
 
+import kr.personal.model.CovidStatus;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

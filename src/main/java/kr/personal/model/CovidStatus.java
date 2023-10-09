@@ -1,4 +1,4 @@
-package kr.personal;
+package kr.personal.model;
 
 public class CovidStatus {
     private String category;

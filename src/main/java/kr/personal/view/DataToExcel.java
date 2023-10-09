@@ -1,5 +1,6 @@
-package kr.personal;
+package kr.personal.view;
 
+import kr.personal.model.CovidStatus;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;

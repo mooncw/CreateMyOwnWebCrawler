@@ -1,8 +1,9 @@
-package kr.personal;
+package kr.personal.view;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.Font;
 import com.itextpdf.text.pdf.*;
+import kr.personal.model.CovidStatus;
 
 import java.io.File;
 import java.io.FileOutputStream;
